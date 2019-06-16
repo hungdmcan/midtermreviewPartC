@@ -1,8 +1,8 @@
 package midtermreviewcodeforpartc;
 /**
- * @author Rich Smith at ZenOfProgramming.com  
+ * @Hungdm
  */
-public class PasswordValidator 
+public interface PasswordValidator
 {
-
+   boolean validPassword (String userName, String password);
 }
